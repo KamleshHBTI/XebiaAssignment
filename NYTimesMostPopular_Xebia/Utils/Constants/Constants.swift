@@ -10,13 +10,9 @@ import Foundation
 
 
 let baseURL = "https://api.nytimes.com/svc/mostpopular/v2/"
-let APIScheme = "https"
 let period = 7
 let APIHost = "api.nytimes.com"
 let listOfSharedArticle = "viewed/\(period).json?api-key=\(NYMostConfig.key)"
-
-
-
 
 struct APIKeys {
   static let byline = "byline"
